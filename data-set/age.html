@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/chalk.js"></script>
+
+</head>
+<body>
+    <div id="33b4c49672e3427b9334354c5be9b3f8" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_33b4c49672e3427b9334354c5be9b3f8 = echarts.init(
+            document.getElementById('33b4c49672e3427b9334354c5be9b3f8'), 'chalk', {renderer: 'canvas'});
+        var option_33b4c49672e3427b9334354c5be9b3f8 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "33-40",
+                    "value": 14
+                },
+                {
+                    "name": "26-33",
+                    "value": 11
+                },
+                {
+                    "name": "47-54",
+                    "value": 4
+                },
+                {
+                    "name": "40-47",
+                    "value": 1
+                }
+            ],
+            "radius": [
+                "30%",
+                "75%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "roseType": "radius",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}: {d}%"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "33-40",
+                "26-33",
+                "47-54",
+                "40-47"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u300a\u4e58\u98ce\u7834\u6d6a\u7684\u59d0\u59d0\u300b",
+            "subtext": "\u5e74\u9f84\u5206\u5e03",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_33b4c49672e3427b9334354c5be9b3f8.setOption(option_33b4c49672e3427b9334354c5be9b3f8);
+    </script>
+</body>
+</html>
